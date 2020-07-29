@@ -1,0 +1,139 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #430;color: #fff;
+    font-family: 'Oswald', sans-serif;
+    background-color: #68d0f4;
+background-image: url("img/imagen\ fondo.jpg");
+
+}
+
+a{
+  color: azure;
+  text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.conteiner{
+    width: 90;
+    margin: auto;
+}
+
+.navegar{
+    font-size: 17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 20px 0;
+    background: #2f3640;
+    opacity: .9;
+
+}
+.Ima{
+    width: 70px;
+}
+
+.navegar ul{
+    display:flex;
+}
+
+.navegar ul li{
+    padding: 10px;
+}
+.navegar ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.navegar ul.Textos{
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr{
+    margin: 10px 0;
+}
+.Dos{
+    width: 100%;
+    height: 550px;
+    background: url('./img/imagen2.jpg') center/cover ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.Cuadros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+.Cuadros img{
+    width: 100%;
+    height: 180px;
+}
+.Cuadros h3{
+    font-size: 20px;
+    margin: 10px 0;
+} 
+.Cuadros a {
+    padding: 10px 0;
+   color: aqua;
+   text-transform: uppercase;
+   display: inline-block;
+   font-weight: bold;
+}
+
+.Cuadros a:hover{
+    text-decoration: underline;
+}
+.seccion{
+    width: 100%;
+    height: 350px;
+    background: url('./img/imagen5.jpg') no-repeat center center/cover; 
+    margin-bottom: 30px;
+}
+.seccion .contenido{
+    width: 50%;
+    padding: 90px 0 0 30px;
+    color: rgb(21, 26, 22);
+}
+.seccion h2,
+.seccion p {
+    margin: 10px 0 20px 0;
+}
+
+.acerca-de {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.acercade2-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.acercade2-container ul{
+    margin: 0 auto;
+}
+
+@media (max-width: 700px){
+    .Cuadros{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+ 
+
+
+

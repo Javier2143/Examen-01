@@ -1,0 +1,14 @@
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.productos div{
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+.productos div:hover{
+    border: 1px solid #f1c40f;
+}

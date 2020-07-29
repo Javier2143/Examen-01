@@ -1,0 +1,39 @@
+body{
+    background-image: url("img/imagen\ fondo.jpg");
+}
+.AcessoU{
+    width: 400px;
+    background: steelblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(44, 8, 248);
+    box-shadow: 7px 13px 37px  rgb(65, 62, 231);
+}
+.AcessoU h3{
+    font-size:  22px;
+    margin-bottom: 20px;
+}
+
+.texto1{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
+.boton{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

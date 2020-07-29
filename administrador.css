@@ -1,0 +1,12 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #430;color: #fff;
+    font-family: 'Oswald', sans-serif;
+    background-color: #68d0f4;
+    background-image: url("img/imagen\ fondo.jpg");
+}
